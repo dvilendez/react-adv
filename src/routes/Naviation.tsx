@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom'
 import { Routes, Route, NavLink, Navigate } from "react-router-dom"
 
@@ -5,7 +6,6 @@ import { Routes, Route, NavLink, Navigate } from "react-router-dom"
 import { routes } from './routes'
 
 import logo from "../logo.svg";
-import { Suspense } from 'react';
 
 export const Naviation = () => {
   return (
